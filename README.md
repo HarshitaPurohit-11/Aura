@@ -279,5 +279,30 @@ Update `contracts/addresses.json` with the deployed addresses, then add them to 
 ---
 
 ## Team
+Kirti Shukla(Frontend)
+Harshita Purohit(Backend)
 
-Built by Kirti and Harshita for the ProofFund hackathon submission.
+Forked from https://github.com/kirtishukla9955/Aura. My contributions: Backend development
+
+## What I Built (Backend)
+
+Built the complete backend infrastructure including:
+
+- REST API with 10+ endpoints (auth, vault, proposals, reveal, network, dashboard)
+- Two Solidity smart contracts deployed on Polygon Amoy testnet
+- JWT wallet authentication using ethers.js signature verification
+- IPFS integration via Pinata for decentralized metadata storage
+- TigerGraph graph database for IP relationship mapping
+- SHA-256 idea hashing pipeline with on-chain commitment
+- Milestone-based escrow logic (30/40/30%) with DAO approval gates
+- Graceful fallback architecture for demo stability
+
+## What I Learned
+
+- Interacting with Solidity smart contracts using ethers.js
+- Building JWT auth without traditional passwords using wallet signatures
+- Integrating graph databases (TigerGraph) with REST APIs
+- Designing milestone-based escrow logic to prevent funding fraud
+- Managing a shared GitHub repo with conflict resolution under hackathon pressure
+
+
